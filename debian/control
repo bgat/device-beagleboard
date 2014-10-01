@@ -10,9 +10,10 @@ Architecture: all
 Description: Root package for the Beagleboard C/D
  This package is part of Pragmatux http://pragmatux.org
 Depends:
- mount-mmcblk0p1-as-boot,
- dtb-beagleboard,
  board-beagleboard,
+ bootscr-omap3,
+ dtb-beagleboard,
+ mount-mmcblk0p1-as-boot,
  baseconfig-ptux,
  ptux-essential,
  systemd-sysv,
