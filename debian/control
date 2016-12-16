@@ -7,9 +7,11 @@ Standards-Version: 3.9.3
 
 Package: device-beagleboard
 Architecture: all
+Multi-Arch: foreign
 Description: Root package for the Beagleboard C/D
  This package is part of Pragmatux http://pragmatux.org
 Depends:
+ default-root-sshkey-device,
  board-beagleboard,
  bootscr-omap3,
  dtb-beagleboard,
